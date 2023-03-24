@@ -6,7 +6,7 @@ export default function () {
     return (
         <Flex>
             <Heading as="h1" size="lg" color="teal.500" noOfLines={1} style={{ margin: "10px 0px" }}>
-                ImGPT
+                {/* ImGPT */} AiDog
             </Heading>
             <Spacer />
             <HStack spacing="2">
@@ -19,9 +19,9 @@ export default function () {
                     aria-label={"change color mode"}
                     onClick={toggleColorMode}
                 />
-                <Link href="https://github.com/xiaoler/ImGPT" isExternal>
+                {/* <Link href="https://github.com/xiaoler/ImGPT" isExternal>
                     Github <ExternalLinkIcon mx="2px" />
-                </Link>
+                </Link> */}
             </HStack>
         </Flex>
     );
